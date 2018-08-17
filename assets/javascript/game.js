@@ -30,8 +30,7 @@ document.onkeyup = function (event) {
         "<p>Wins: " + wins + "</p>" +
         "<p>Losses: " + losses + "</p>" +
         "<p>Guesses Left: " + guesses + "</p>" +
-        "<p>Guesses So far: " + glet + "</p>" +
-        "<p> Computers choice" + randc + "</p>"
+        "<p>Guesses So far: " + glet + "</p>" 
 
 
     document.querySelector("#game").innerHTML = html;
